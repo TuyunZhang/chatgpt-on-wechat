@@ -40,7 +40,7 @@ DEMO视频：https://cdn.link-ai.tech/doc/cow_demo.mp4
 
 **企业服务和产品咨询** 可联系产品顾问：
 
-<img width="160" src="https://img-1317903499.cos.ap-guangzhou.myqcloud.com/docs/github-product-consult.png">
+<img width="160" src="https://cdn.link-ai.tech/consultant-s.jpg">
 
 <br>
 
@@ -144,6 +144,7 @@ pip3 install -r requirements-optional.txt
 {
   "model": "gpt-3.5-turbo",                                   # 模型名称, 支持 gpt-3.5-turbo, gpt-4, gpt-4-turbo, wenxin, xunfei, glm-4, claude-3-haiku, moonshot
   "open_ai_api_key": "YOUR API KEY",                          # 如果使用openAI模型则填入上面创建的 OpenAI API KEY
+  "open_ai_api_base": "https://api.openai.com/v1",            # OpenAI接口代理地址
   "proxy": "",                                                # 代理客户端的ip和端口，国内环境开启代理的需要填写该项，如 "127.0.0.1:7890"
   "single_chat_prefix": ["bot", "@bot"],                      # 私聊时文本需要包含该前缀才能触发机器人回复
   "single_chat_reply_prefix": "[bot] ",                       # 私聊时自动回复的前缀，用于区分真人
